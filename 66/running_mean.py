@@ -11,7 +11,7 @@ def running_mean(sequence):
     for i, num in enumerate(sequence, start=1):
         sum += num
         mean.append(round(sum / i, 2))
-    print(mean)
+    return(mean)
 
 
 running_mean(sequence)
